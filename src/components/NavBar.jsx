@@ -6,7 +6,7 @@ function NavBar() {
   return (
     <div>
       {/* Logo at the top, centered */}
-      <Container className='text-center my-3'>
+      <Container className='text-center my-3 logo-container'>
         <img
           src="logo.webp"
           alt="logo"
