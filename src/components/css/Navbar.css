@@ -1,4 +1,14 @@
+/* Logo container limits max width */
+.logo-container {
+  max-width: 10px;  /* controls how big the logo can be */
+  margin: 0 auto;    /* center horizontally */
+}
 
+/* Make the image fully responsive inside the container */
+.logo-img {
+  width: 75%;  /* fills container width */
+  height: auto; /* maintain aspect ratio */
+}
 .navbar .nav-link {
   color: black;      
   transition: color 0.3s ease;
