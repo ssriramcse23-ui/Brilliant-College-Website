@@ -10,8 +10,7 @@ function NavBar() {
         <img
           src="logo.webp"
           alt="logo"
-          className="img-fluid"
-          style={{ maxWidth: '800px' }}
+          className="img-fluid logo-img"
         />
       </Container>
 
