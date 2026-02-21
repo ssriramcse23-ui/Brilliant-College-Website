@@ -1,13 +1,13 @@
-/* Logo container limits max width */
-.logo-container {
-  max-width: 10px;  /* controls how big the logo can be */
-  margin: 0 auto;    /* center horizontally */
+/* Logo wrapper controls max width and centers it */
+.logo-wrapper {
+  max-width: 300px;  /* default desktop/tablet size */
+  margin: 0 auto;
 }
 
-/* Make the image fully responsive inside the container */
+/* Logo image fills container */
 .logo-img {
-  width: 75%;  /* fills container width */
-  height: auto; /* maintain aspect ratio */
+  width: 75%;
+  height: auto;
 }
 .navbar .nav-link {
   color: black;      
