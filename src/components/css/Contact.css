@@ -1,0 +1,67 @@
+/* Section background */
+.contact-section {
+  background: linear-gradient(135deg, #007bff 0%, #00a8ff 100%);
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #fff;
+}
+
+/* Headline */
+.headline {
+  color: #fff;
+  text-align: center;
+}
+
+/* Floating labels input style override */
+.contact-form .form-floating input,
+.contact-form .form-floating textarea {
+  background-color: rgba(255,255,255,0.1);
+  border: none;
+  color: #fff;
+}
+
+.contact-form .form-floating input:focus,
+.contact-form .form-floating textarea:focus {
+  background-color: rgba(255,255,255,0.2);
+  color: #fff;
+}
+
+.contact-form .form-floating label {
+  color: #fff;
+  pointer-events: none;
+}
+
+/* Submit button */
+.btn-contact {
+  background: #ffd166;
+  color: #074ca6;
+  font-weight: 600;
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-contact:hover {
+  background: #ffb703;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Scroll animation */
+.hidden-card {
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+  transition: transform 0.7s cubic-bezier(0.25,1,0.5,1), opacity 0.7s ease;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+  .btn-contact {
+    width: 100%;
+  }
+}

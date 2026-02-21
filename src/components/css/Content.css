@@ -1,0 +1,36 @@
+.content h1 {
+  font-family: 'Montserrat', sans-serif; /* headline font */
+  font-weight: 600;
+  font-size: 4px; /* mobile default */
+}
+
+.content p {
+  font-family: 'Roboto', sans-serif; /* paragraph font */
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #6a6969;
+  
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .content h1 {
+    font-size: 2.5rem;
+  }
+  .content p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content h1 {
+    font-size: 3rem;
+  }
+  .content p {
+    font-size: 1.2rem;
+  }
+}
+
+.custom{
+  color : #023e8a;
+}

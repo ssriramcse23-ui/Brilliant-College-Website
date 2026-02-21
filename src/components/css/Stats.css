@@ -1,0 +1,51 @@
+/* Full-width section background */
+.stats-section {
+  background-color: #f1f6fc; /* Light cream background */
+  width: 100%;
+}
+
+/* Headline */
+.headline {
+  color: #074ca6; /* Primary blue */
+  animation: fadeInUp 1s forwards;
+}
+
+/* Fade-in animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Stats card styling */
+.stat-card {
+  background: linear-gradient(135deg, #007bff 0%, #00a8ff 100%); /* Blue gradient */
+  color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: default;
+}
+
+/* Hover effect */
+.stat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Number styling */
+.stat-number {
+  font-size: 2rem;
+  color: #ffd166; /* Gold/yellow accent */
+}
+
+/* Label styling */
+.stat-label {
+  font-size: 1.1rem;
+  color: #ffffff; /* White text */
+}
